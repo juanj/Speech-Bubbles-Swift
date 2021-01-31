@@ -13,18 +13,22 @@ After that, the image should be ready for OCR
 ## Progress
 #### Read the image.
 The image I will be using is a page of the manga [ブラックジャックによろしく](https://densho810.com/free/)
+
 <img src="/images/image1.jpg" width="400">
 
 #### Clean the image
 For this step I'm applying multiple CIFilters. The speech bubbles should be really obvious after this step.
+
 <img src="/images/image2.png" width="400">
 
 #### Detect Contours
 A `VNDetectContoursRequest` seems to be doing a great job of detecting contours
+
 <img src="/images/image3.jpg" width="400">
 
 #### Filter contours
 Filter contours that have an area of at least 0.004, and no bigger than 0.4 and that have a proportion of area/perimeter of at least 0.02
+
 <img src="/images/image4.jpg" width="400">
 
 TODO:
