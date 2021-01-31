@@ -31,11 +31,38 @@ let pImage = filter4.outputImage!
 // Initialize the contour request
 let contourRequest = VNDetectContoursRequest()
 contourRequest.revision = VNDetectContourRequestRevision1
-contourRequest.contrastAdjustment = 1
+//contourRequest.contrastAdjustment = 1
 
 let requestHandler = VNImageRequestHandler(ciImage: pImage, options: [:])
 try! requestHandler.perform([contourRequest])
 let observation = contourRequest.results?.first as! VNContoursObservation
+
+// This are juts some arbitrary values found by trial and error
+
+// Minimum area to filter small contours
+let minimumArea = 0.004
+
+// Maximum area to filter really big contours like a full panel
+let maximumArea = 0.4
+
+// Minimum ratio to penalize contours that are too concave
+let minimumRatio = 0.02
+var contours = [VNContour]()
+
+for topContour in observation.topLevelContours {
+    for contour in topContour.childContours {
+        var area: Double = 0
+        try? VNGeometryUtils.calculateArea(&area, for: contour, orientedArea: false)
+
+        var perimeter: Double = 0
+        try? VNGeometryUtils.calculatePerimeter(&perimeter, for: contour)
+
+        let ratio = area/perimeter
+        if area > minimumArea && area < maximumArea && ratio > minimumRatio {
+            contours.append(contour)
+        }
+    }
+}
 
 // Render the contours on top of the original image
 let size = CGSize(width: image.size.width, height: image.size.height)
@@ -50,6 +77,8 @@ let renderedImage = renderer.image { context in
     renderingContext.scaleBy(x: size.width, y: size.height)
     renderingContext.setLineWidth(5.0 / size.width)
     renderingContext.setStrokeColor(UIColor.red.cgColor)
-    renderingContext.addPath(observation.normalizedPath)
+    for contour in contours {
+        renderingContext.addPath(contour.normalizedPath)
+    }
     renderingContext.strokePath()
 }
