@@ -3,17 +3,52 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=819&amp;EndingColumnNumber=11&amp;EndingLineNumber=28&amp;StartingColumnNumber=5&amp;StartingLineNumber=28&amp;Timestamp=633801371.4700561"
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=819&amp;EndingColumnNumber=11&amp;EndingLineNumber=28&amp;StartingColumnNumber=5&amp;StartingLineNumber=28&amp;Timestamp=633809335.037762"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=5&amp;CharacterRangeLoc=152&amp;EndingColumnNumber=10&amp;EndingLineNumber=6&amp;StartingColumnNumber=5&amp;StartingLineNumber=6&amp;Timestamp=633801371.4701591"
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=5&amp;CharacterRangeLoc=152&amp;EndingColumnNumber=10&amp;EndingLineNumber=6&amp;StartingColumnNumber=5&amp;StartingLineNumber=6&amp;Timestamp=633809335.037853"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=2221&amp;EndingColumnNumber=18&amp;EndingLineNumber=69&amp;StartingColumnNumber=5&amp;StartingLineNumber=69&amp;Timestamp=633801371.470227"
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=2221&amp;EndingColumnNumber=18&amp;EndingLineNumber=69&amp;StartingColumnNumber=5&amp;StartingLineNumber=69&amp;Timestamp=633809335.03792"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=10&amp;CharacterRangeLoc=4424&amp;EndingColumnNumber=0&amp;EndingLineNumber=117&amp;StartingColumnNumber=1&amp;StartingLineNumber=116&amp;Timestamp=633809335.038015"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=10&amp;CharacterRangeLoc=4435&amp;EndingColumnNumber=0&amp;EndingLineNumber=118&amp;StartingColumnNumber=1&amp;StartingLineNumber=117&amp;Timestamp=633809335.038079"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=10&amp;CharacterRangeLoc=4446&amp;EndingColumnNumber=0&amp;EndingLineNumber=119&amp;StartingColumnNumber=1&amp;StartingLineNumber=118&amp;Timestamp=633809335.038142"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=10&amp;CharacterRangeLoc=4457&amp;EndingColumnNumber=0&amp;EndingLineNumber=120&amp;StartingColumnNumber=1&amp;StartingLineNumber=119&amp;Timestamp=633809335.038204"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=10&amp;CharacterRangeLoc=4468&amp;EndingColumnNumber=0&amp;EndingLineNumber=121&amp;StartingColumnNumber=1&amp;StartingLineNumber=120&amp;Timestamp=633809335.038264"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=10&amp;CharacterRangeLoc=4479&amp;EndingColumnNumber=0&amp;EndingLineNumber=122&amp;StartingColumnNumber=1&amp;StartingLineNumber=121&amp;Timestamp=633809335.038344"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/juanjosemeneses/Documents/Speech-Bubbles-Swift/Detect%20speech%20bubbles.playground#CharacterRangeLen=10&amp;CharacterRangeLoc=4490&amp;EndingColumnNumber=0&amp;EndingLineNumber=123&amp;StartingColumnNumber=1&amp;StartingLineNumber=122&amp;Timestamp=633809335.03842"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
